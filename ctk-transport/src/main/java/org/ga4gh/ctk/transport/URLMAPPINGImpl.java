@@ -513,11 +513,11 @@ public class URLMAPPINGImpl implements URLMAPPING {
     }
 
     @Override
-    public String getSearchFeatureGroup() { return endpoints.get("ctk.tgt.getFeatureGroup"); }
+    public String getSearchFeatureGroup() { return endpoints.get("ctk.tgt.searchFeatureGroup"); }
 
     @Override
     public void setSearchFeatureGroup(String searchFeatureGroup) {
-        endpoints.put("ctk.tgt.getFeatureGroup", searchFeatureGroup);
+        endpoints.put("ctk.tgt.searchFeatureGroup", searchFeatureGroup);
     }
 
     @Override

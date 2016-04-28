@@ -100,7 +100,7 @@ record SearchExpressionLevelRequest {
   If present returns ExpressionLevel records with expressions exceeding
   this value.
   */
-  union { null, float } threshold = 0.0;
+  float threshold = 0.0;
 
 
   /**
